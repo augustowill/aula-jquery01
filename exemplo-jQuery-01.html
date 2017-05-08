@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exemplo jQuery</title>
+
+    <script type="text/javascript">
+  //  alert("teste de carga html");
+
+    //aparece primeiro a tela de mensagem</script>
+
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.js"></script>
+
+
+
+    <script type="text/javascript">
+  //segura o html enquanto e construido
+    $(document).ready(function(){
+   alert("teste de carga html");
+    $("#iData").css("background-color", "#ff0000")
+    });
+    </script>
+
+    <style>
+
+
+    input[]{
+      border:solid 2px #ff0000;
+
+    }
+    </style>
+
+  </head>
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Exemplo</legend>
+
+
+
+
+        <div>
+          <label for=""> data</label><br>
+          <input type="date" name="tdata"> </input>
+
+        </div>
+
+
+        <div>
+          <label for=""> nome</label><br>
+          <input type="text" name="tnome"> </input><br>
+
+
+        </div>
+        <div>
+          <label for="">Sobrenome</label><br>
+          <input type="text" name="tnomesobrenome"></input><br>
+            <button type="button" name="button">enviar</button>
+
+
+        </div>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
